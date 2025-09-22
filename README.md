@@ -1,7 +1,7 @@
 ## Formbar Digipog Example
 A minimal Express + EJS app to try Digipogs transfers against a Formbar instance via HTTP.
 
-![Preview](public/img/preview.png)
+<img src="public/img/preview.png" alt="Preview" width="800" />
 
 ### Prerequisites
 - **Node.js**
