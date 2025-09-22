@@ -1,0 +1,27 @@
+/* thanks copilot */
+
+:root{
+  --bg:#0b0c10; --panel:#15171c; --text:#e6e6e6; --muted:#9aa3b2; --accent:#6ea8fe; --ok:#22c55e; --warn:#f59e0b; --err:#ef4444; --border:#262933;
+}
+*{box-sizing:border-box}
+body{margin:0; padding:24px; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Arial; background:var(--bg); color:var(--text)}
+.container{max-width:1100px; margin:0 auto}
+h1{margin:0 0 16px 0; font-size:24px}
+.subtitle{color:var(--muted); margin-bottom:24px}
+.grid{display:grid; grid-template-columns: 1fr 1fr; gap:20px}
+.card{background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:16px}
+.row{display:grid; grid-template-columns:170px 1fr; align-items:center; gap:12px; margin:10px 0}
+input{width:100%; padding:10px 12px; border-radius:8px; border:1px solid var(--border); background:#0f1116; color:var(--text)}
+button{padding:10px 14px; border-radius:8px; border:1px solid var(--border); background:#10131a; color:var(--text); cursor:pointer}
+button.primary{background:linear-gradient(180deg,#1f6feb,#1158c7); border-color:#1f6feb}
+button:disabled{opacity:0.6; cursor:not-allowed}
+.badges{display:flex; gap:8px; flex-wrap:wrap}
+.badge{display:inline-flex; align-items:center; gap:6px; font-size:12px; padding:4px 8px; border-radius:999px; border:1px solid var(--border); background:#0f1116}
+.badge.ok{color:var(--ok)}
+.badge.warn{color:var(--warn)}
+.badge .dot{width:8px; height:8px; border-radius:999px; background:currentColor}
+pre{background:#0a0c12; color:#bfe2ff; border:1px solid var(--border); border-radius:10px; padding:14px; overflow:auto; white-space:pre-wrap}
+label.small{font-size:12px; color:var(--muted)}
+.actions{display:flex; gap:12px}
+
+
